@@ -10,33 +10,23 @@
 			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="Css/style.css" />
+		<link rel="stylesheet" href="Css/apiBitcoin.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<div class="container h-100">
-			<div class="row align-items-center justify-content-center h-100">
-				<div class="col-md-8 col-lg-6 p-3">
-					<div class="bg-light shadow p-5">
-						<div id="citation" class="text-center">
-							La vie est un mystère qu'il faut vivre, et non un problème à
-							résoudre.
-						</div>
-						<div class="bg-secondary w-25 mx-auto p-1 my-4"></div>
-						<div id="auteur" class="text-center">Gandhi</div>
-					</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<h1 class="text-center mt-5">Bitcoin Price</h1>
 
-					<div
-						id="nouveau"
-						class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase"
-					>
-						Nouvelle citation
+					<div id="price" class="text-center">
+						<span id="price_label">xxxx.xx</span> €
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<script src="Js/citation.js"></script>
+		<script src="Js/apiBitcoin.js"></script>
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
